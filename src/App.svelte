@@ -57,18 +57,23 @@
 
 
 
-<h1>Tooltip</h1>
+<h1>Input</h1>
 
 <div style="display: flex; flex-direction: column;" >
   <Input
-    type="password"
+    type="regural"
+    texte="Name"
   />
-
   <Input
     type="email"
+    texte="Enter your email:"
   />
-
   <Input
-    type="simple"
+    type="password"
+    texte="Password (8 characters minimum):"
+  />
+  <Input
+    type="textarea"
+    texte="Message"
   />
 </div>
