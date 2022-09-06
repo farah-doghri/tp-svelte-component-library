@@ -1,6 +1,8 @@
 <script>
   import Card from './components/Card.svelte';
   import Tooltip from './components/Tooltip.svelte';
+  import Input from './components/Input.svelte';
+
 </script>
 
 <h1>Cards</h1>
@@ -25,9 +27,7 @@
   />
 </div>
 
-
 <h1>Tooltip</h1>
-
 <div style="display: flex; flex-wrap:wrap; text-align: center;" >
   <Tooltip
     title="Top"
@@ -53,4 +53,27 @@
     position="Left"
   />
   
+</div>
+
+
+
+<h1>Input</h1>
+
+<div style="display: flex; flex-direction: column;" >
+  <Input
+    type="regural"
+    texte="Name"
+  />
+  <Input
+    type="email"
+    texte="Enter your email:"
+  />
+  <Input
+    type="password"
+    texte="Password (8 characters minimum):"
+  />
+  <Input
+    type="textarea"
+    texte="Message"
+  />
 </div>
