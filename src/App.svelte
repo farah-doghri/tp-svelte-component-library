@@ -5,7 +5,7 @@
 
 <h1>Cards</h1>
 
-<div>
+<div style="display: flex; flex-wrap:wrap">
   <Card
     title="Thomas"
     content="https://storage.googleapis.com/mustsee-earth.appspot.com/places/matterhorn-sam-ferrara-large%402x.jpg"
@@ -28,7 +28,7 @@
 
 <h1>Tooltip</h1>
 
-<div style="text-align: center;">
+<div style="display: flex; flex-wrap:wrap; text-align: center;" >
   <Tooltip
     title="Top"
     texte="Rigth"
