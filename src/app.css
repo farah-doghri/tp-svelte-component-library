@@ -25,6 +25,11 @@ body {
   width: 40px;
   text-align: center;
 }
+.range_container {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
 h2 {
   font-size: 2em;
   padding-bottom: 10px;

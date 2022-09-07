@@ -2,6 +2,7 @@
   import Card from './components/Card.svelte';
   import Tooltip from './components/Tooltip.svelte';
   import Input from './components/Input.svelte';
+  import Range from './components/Range.svelte';
 
 </script>
 
@@ -75,4 +76,11 @@
       texte="Message"
     />
   </div>
+</div>
+
+<div class="component_container">
+  <h2>Range Slider</h2>
+  <div class="component range_container">
+    <Range/>
+  </div>  
 </div>
